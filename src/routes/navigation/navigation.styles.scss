@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     font-family: 'Ultra', serif;
-    color: white;
+    color: black;
 }
 
 .navigation-section {
@@ -14,6 +14,15 @@
     display: flex;
     width: 400px;
     justify-content: space-between;
+}
+
+.navigation-link {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation-link:visited {
+    color: black;
 }
 
 .navigation-link:hover {

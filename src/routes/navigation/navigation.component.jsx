@@ -1,6 +1,6 @@
 import './navigation.styles.scss';
 
-import { Outlet } from 'react-router-dom';
+import { Outlet, Link } from 'react-router-dom';
 import './navigation.styles.scss';
 
 const Navigation = () => {
@@ -11,10 +11,10 @@ const Navigation = () => {
                 LOGO
             </div>
             <div className='navigation-section links-section'>
-                <span className='home-link navigation-link'>HOME</span>
-                <span className='browse-link navigation-link'>BROWSE</span>
-                <span className='about-link navigation-link'>ABOUT</span>
-                <span className='contact-link navigation-link'>CONTACT</span>
+                <Link className='home-link navigation-link' to='/'>HOME</Link>
+                <Link className='browse-link navigation-link' to='/browse'>BROWSE</Link>
+                <Link className='about-link navigation-link' to='sign-in'>SIGN IN</Link>
+                <Link className='contact-link navigation-link' to='checkout'>CHECKOUT</Link>
             </div>
             <div className='navigation-section media-links-section'>
                 HELLO
