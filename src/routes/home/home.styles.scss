@@ -1,0 +1,15 @@
+.home-container {
+    min-width: 500px;
+    max-width: 50vw;
+    margin: auto;
+    background-color: lightblue;
+}
+
+.home-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+}

@@ -2,9 +2,12 @@ import './shop.styles.scss';
 
 const Shop = () => {
     return(
-        <div className='shop-container'>
-            <h1>SHOP</h1>
-        </div>
+        <>
+            <div className='test'></div>
+            <div className='shop-container'>
+                <h1>SHOP</h1>
+            </div>
+        </>
     )
 }
 

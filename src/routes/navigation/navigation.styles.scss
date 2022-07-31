@@ -1,18 +1,22 @@
 .navigation-container {
-    height: 70px;
     width: 100%;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 25px;
-    padding-top: 20px;
+    font-family: 'Ultra', serif;
+    color: white;
 }
 
 .navigation-section {
-    padding: 0 100px;
+    padding: 20px 100px;
 }
 
 .links-section {
     display: flex;
     width: 400px;
     justify-content: space-between;
+}
+
+.navigation-link:hover {
+    cursor: pointer;
+    color: rgb(138, 132, 132);
 }
